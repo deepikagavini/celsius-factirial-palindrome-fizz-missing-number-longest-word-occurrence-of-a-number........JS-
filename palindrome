@@ -1,0 +1,11 @@
+function slice(name){
+
+        let reversed = name.split('').reverse().join('');
+    if(name===reversed){
+        console.log("Palindrome");
+    }
+    else {
+        console.log("Not Palindrome");
+    }
+    }
+ slice("mam");
